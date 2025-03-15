@@ -9,7 +9,7 @@ const Navbar = ({ children }) => {
   );
 };
 
-const NavChild = ({ text, ref, divider, dropdown }) => {
+const NavChild = ({ text, ref, divider, special }) => {
   return (
     <>
       <div className="child">
@@ -19,7 +19,5 @@ const NavChild = ({ text, ref, divider, dropdown }) => {
     </>
   );
 };
-
-
 
 export { Navbar, NavChild };

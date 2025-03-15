@@ -1,5 +1,6 @@
 import "./App.css";
 import { Navbar, NavChild } from "./components/Navbar/Navbar";
+import { Home } from "./components/Home/Home";
 
 function App() {
   return (
@@ -9,8 +10,11 @@ function App() {
           <NavChild text="Home" ref="/home" divider={true} />
           <NavChild text="About" ref="/about" divider={true} />
           <NavChild text="Contact" ref="/contact" divider={true} />
-          <NavChild text="Contact2" />
+          <NavChild text="Log In" special={true} />
         </Navbar>
+      </div>
+      <div classname="content">
+        <Home />
       </div>
     </div>
   );
