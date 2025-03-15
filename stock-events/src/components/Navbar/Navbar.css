@@ -1,0 +1,43 @@
+.Navbar {
+  display: flex;
+  background-color: rgb(221, 221, 221);
+  padding: 0px 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 40px;
+  width: 40rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid rgb(197, 196, 196);
+}
+
+.divider {
+  width: 1px;
+  height: 3rem;
+  background-color: rgb(197, 196, 196);
+}
+
+.child,
+.child a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  color: rgb(19, 19, 19);
+  font-weight: 100;
+  text-decoration: none;
+  transition: background-color 200ms ease;
+}
+
+.child:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+.logo {
+  display: flex;
+  margin-right: 10px;
+}
