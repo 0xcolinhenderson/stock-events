@@ -13,7 +13,7 @@ function App() {
           <NavChild text="Log In" special={true} />
         </Navbar>
       </div>
-      <div classname="content">
+      <div className="content">
         <Home />
       </div>
     </div>

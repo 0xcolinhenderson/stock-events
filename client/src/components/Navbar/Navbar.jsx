@@ -3,7 +3,7 @@ import "./Navbar.css";
 const Navbar = ({ children }) => {
   return (
     <div className="Navbar">
-      <div className="logo">Logo</div>
+      <div className="logo">Stocker</div>
       {children}
     </div>
   );
@@ -12,7 +12,7 @@ const Navbar = ({ children }) => {
 const NavChild = ({ text, ref, divider, special }) => {
   return (
     <>
-      <div className="child">
+      <div className={`child ${special ? "special" : ""}`}>
         {ref ? <a href={ref}>{text}</a> : <span>{text}</span>}
       </div>
       {divider ? <div className="divider"></div> : null}
